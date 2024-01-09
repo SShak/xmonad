@@ -10,6 +10,7 @@ import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.StatusBar
 import XMonad.Hooks.StatusBar.PP
+import XMonad.Hooks.WindowSwallowing
 import XMonad.Util.Loggers
 import XMonad.Util.EZConfig
 import XMonad.Layout.Spacing
@@ -230,7 +231,7 @@ myManageHook = composeAll
 -- return (All True) if the default handler is to be run afterwards. To
 -- combine event hooks use mappend or mconcat from Data.Monoid.
 --
-myEventHook = mempty
+myEventHook = swallowEventHook (className =? "Alacritty" <||> className =? "XTerm") (return True)
 
 ------------------------------------------------------------------------
 -- Status bars and logging
