@@ -14,7 +14,7 @@ Steps to install:
 - If you are using my alacritty .toml, add it to .config/alacritty.
 
 From here reboot or logout to Smmd and pick Xmonad.  The desktop should be blank so launch nitrogen with dmenu (super+p) and apply some wallpaper.
-Look at the xmonad.hs for key bindings.  The super key (mask4mod) is set, so you can open a terminal with super+shift+enter. 
+Look at the xmonad.hs for key bindings.  The super key (mod4mask) is set, so you can open a terminal with super+shift+enter. 
 
 
 If you use it have fun.
