@@ -7,7 +7,7 @@ Dependencies:
 - picom
 
 Steps to install:
-- In the terminal type: sudo pacman -S xmonad xmonad-contribs xmobar dmenu
+- In the terminal type: sudo pacman -S xmonad xmonad-contrib xmobar dmenu
   (xmobar is optional, but it's nice)
 - Take the xmonad.hs file and put into your .config/xmonad folder (if you don't have one, then make one)
 - .xmobarrc should be placed in your ~ directory. This is where you should find directories such as .config and Desktop.
