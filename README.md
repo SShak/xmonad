@@ -13,8 +13,8 @@ Steps to install:
 - .xmobarrc should be placed in your ~ directory. This is where you should find directories such as .config and Desktop.
 - If you are using my alacritty .toml, add it to .config/alacritty.
 
-From here reboot or logout to Smmd and pick Xmonad.  The desktop should be blank so launch nitrogen with dmenu and apply some wallpaper.
-Look at the xmonad.hs for key bindings.  The super key (mask4mod) is set, so you can open a terminal with super+shirt+enter. 
+From here reboot or logout to Smmd and pick Xmonad.  The desktop should be blank so launch nitrogen with dmenu (super+p) and apply some wallpaper.
+Look at the xmonad.hs for key bindings.  The super key (mask4mod) is set, so you can open a terminal with super+shift+enter. 
 
 
 If you use it have fun.
