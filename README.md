@@ -1,4 +1,4 @@
-Okay, so I'm going to write this only on the basis that you are running Arch and orginionally installed the KDE desktop (if not you will want to add additional software for things like volume control and they should be added to the startup hook where picom is and stuff.)
+Okay, so I'm going to write this only on the basis that you are running Arch and originally installed the KDE desktop (if not you will want to add additional software for things like volume control and they should be added to the startup hook where picom is and stuff.)
 
 Dependencies:
 - Arch with KDE
